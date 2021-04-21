@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet');
+
+body,main{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.content-full{
+    width: 100%;
+    height: 10vh;
+}
+
+.content-full .row{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9EEADC;
+}
+
+.content-full .row ul{
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-full .row ul li{
+    padding: 5px 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.9em;
+    list-style: none;
+}
+
+.content-full .row ul li:hover{
+    border-bottom: 2px solid white;
+
+}
+
+.content-full .row ul li a{
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #020202;
+}
+
+.content-mobile{
+    display: none;
+}
+
+@media(max-width:480px){
+    .content-full{
+        display: none;
+    }
+    .content-mobile{
+        width: 100%;
+        display: block;
+    }
+    
+    .content-mobile .row{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #9EEADC;
+    }
+    
+    .content-mobile .row ul{
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .content-mobile .row ul li{
+        padding: 0px 10px;
+        font-family: 'Dancing Script', cursive;
+        font-size: 1.9em;
+        list-style: none;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    
+    .content-mobile .row ul li:hover{
+        background-color: #d6d5d5;
+    }
+    
+    .content-mobile .row ul li a{
+        height: 100%;
+        width: 100%;
+        text-decoration: none;
+        color: #020202;
+    }
+}

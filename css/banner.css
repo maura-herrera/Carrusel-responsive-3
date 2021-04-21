@@ -1,0 +1,77 @@
+.banner{
+    width: 100%;
+    height: 90vh;
+}
+
+.banner .row{
+    display: flex;
+    width: 300%;
+    height: 90vh;
+    animation: banner 12s infinite;
+    transition: 3s all;
+}
+
+.banner .row .col-100{
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.banner .row .col-100 img{
+    width: 100%;
+}
+
+@keyframes banner{
+    33%{
+        margin-left: -100%;
+    }
+
+    66%{
+        margin-left: -200%;
+    }
+    99%{
+        margin-left: 0px;
+    }
+}
+
+@media(max-width: 1024px){
+
+.banner .row .col-100 img{
+    height: 90vh;
+}
+
+}
+
+@media(max-width: 768px){
+    .banner{
+        height: 55vh;
+    }
+
+    .banner .row{
+        height: 55vh;
+    }
+    
+    .banner .row .col-100{
+        height: 55vh;
+    }
+    .banner .row .col-100 img{
+        height: 55vh;
+    }
+}
+
+@media(max-width: 370px){
+    .banner{
+        height: 30vh;
+    }
+
+    .banner .row{
+        height: 30vh;
+    }
+    
+    .banner .row .col-100{
+        height: 30vh;
+    }
+
+
+
+}

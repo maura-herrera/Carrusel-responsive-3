@@ -1,0 +1,254 @@
+/* ----------- footer ------------ */
+
+.container-footer{
+    width: 100%;
+    height: 88vh;
+    background-color: blueviolet;
+    background-image: url('https://mk0artdiscoveryg6p9u.kinstacdn.com/wp-content/uploads/2014/10/HENDRIK_Nottebohmzaal_copyright_00001-e1509460554783.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-footer .filter{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.container-footer .filter .row:nth-child(1){
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer .filter .row:nth-child(1) img{
+    width: 30%;
+    margin-top: 50px;
+}
+
+.container-footer .filter .row:nth-child(2){
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(1){
+    width: 25%;
+    padding: 20px 10px;
+    margin-left: 40px;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(1) ul{
+    list-style: none;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(1) ul li{
+    padding: 5px 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 10px;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    transition: ease-in-out .5s;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(1) ul li:nth-child(1){
+    color: #f63812;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(1) ul li:hover{
+    color: #f63812;
+    cursor: pointer;
+}
+
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(2){
+    width: 25%;
+    padding: 20px;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(2) ul{
+    list-style: none;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(2) ul li{
+    padding: 5px 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 10px;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    transition: ease-in-out .5s;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(2) ul li:hover{
+    color: #f63812;
+    cursor: pointer;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3){
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.7rem;
+    margin-bottom: 25px;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form input{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 7px 10px;
+    font-size: 1.2rem;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form button{
+    width: 60%;
+    padding: 7px 12px;
+    margin-top: 30px;
+    background-color: #f3785f;
+    color: azure;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form button:hover{
+    background-color:#f63812;
+    cursor: pointer;
+}
+
+.container-footer .filter .row:nth-child(3){
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-footer .filter .row:nth-child(3) img{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.container-footer .filter .row:nth-child(3) span{
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #020202;
+    font-size: 12px;
+    margin-top: 30px;
+}
+/* ----------- end footer ------------ */
+
+@media(max-width: 768px){
+
+    .container-footer{
+
+        height: 100vh;
+
+        }
+
+    }
+
+@media(max-width: 425px){
+
+.container-footer .filter .row:nth-child(2) {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.container-footer .filter .row:nth-child(1) img{
+    width: 50%;
+    margin-top: 0px;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(1){
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(2){
+    padding: 0px;
+    width: 100%;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(1) ul{
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(2) ul{
+    padding-left: 0;
+    margin-left: 0px;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) {
+    margin-left: 10px;
+    width: 50%;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form input{
+    width: 130px;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form {
+    width: 100%;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form button {
+    width: 100%;
+}
+
+.container-footer .filter .row:nth-child(3) img {
+    margin-top: 60px;
+    width: 100%;
+}
+
+.container-footer .filter .row:nth-child(3) span{
+    font-weight: bolder;
+    color: white;
+}
+
+}
+
+@media(max-width: 375px){
+
+    .container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form input{
+        width: 100px;
+    }
+ }
+
+ @media(max-width: 320px){
+
+    .container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form label{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form input{
+        width:80%;
+    }
+
+    .container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form button{
+        font-size: 10px;
+        width: 95%;
+    }
+
+
+ }
